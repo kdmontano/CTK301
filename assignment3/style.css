@@ -1,0 +1,60 @@
+h1 {
+  color: #efb8b7;
+  background-color: #b82f2c;
+}
+h2 {
+  color: #556aaf;
+  background-color: #8edce0;
+}
+h3 {
+  color: #cfdcca;
+  background-color: #86b379;
+}
+h4 {
+  color: #8c76cb;
+  text-decoration: underline;
+}
+#purple {
+  color: purple;
+  text-decoration: underline;
+  background-color: #eee6f8;
+}
+.yellow {
+  background-color: yellow;
+}
+.frog {
+  color: #76b077;
+  background-color: white;
+}
+#pink {
+  color: #db89b1;
+  background-color: white;
+}
+p {
+  color: #4682c3;
+  background-color: #e6eff9;
+}
+#brown {
+  color: #70532d;
+}
+.highlight {
+  background-color: #e7e582;
+  text-decoration: underline;
+}
+#copyright {
+  color: #d7363e;
+  background-color: white;
+}
+
+a:link {
+  color: #d7363e;
+  /* this is red */
+}
+a:hover {
+  color: #yellow;
+  /*this is yellow */
+}
+a:visited {
+  color: green;
+  /* this is green */
+}
