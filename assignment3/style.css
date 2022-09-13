@@ -50,11 +50,10 @@ a:link {
   color: #d7363e;
   /* this is red */
 }
-a:hover {
-  color: #yellow;
-  /*this is yellow */
-}
 a:visited {
   color: green;
   /* this is green */
+}
+a:hover {
+  color: yellow;
 }
