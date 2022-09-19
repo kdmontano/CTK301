@@ -1,0 +1,39 @@
+main {
+  background-color: #9ea5f4;
+}
+h1 {
+  color: white;
+}
+h2{
+  color: blue;
+}
+h3 {
+  background-color: yellow;
+}
+h4 {
+  color: yellow;
+  background-color: green;
+}
+h5 {
+  color: red;
+}
+#orange {
+  color: orange;
+}
+#red {
+  color: red;
+}
+#mint {
+  background-color: #acf5bb;
+}
+#highlight {
+  background-color: yellow;
+}
+a {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
