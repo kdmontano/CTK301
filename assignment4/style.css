@@ -1,0 +1,83 @@
+p {
+  font-family: sans-serif;
+}
+#center {
+  text-align: center;
+}
+h1 {
+  color: orange;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+h2 {
+  color: orange;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+h3 {
+  color: orange;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+h4 {
+  color: orange;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+#purple {
+  color: purple;
+  text-decoration: underline;
+  background-color: #eee6f8;
+  text-align: center;
+}
+.yellow {
+  background-color: yellow;
+}
+.frog {
+  color: #76b077;
+  background-color: white;
+  text-align: justify;
+}
+#pink {
+  color: #db89b1;
+  background-color: white;
+}
+p {
+  color: #4682c3;
+  background-color: #e6eff9;
+}
+#brown {
+  color: #70532d;
+}
+.highlight {
+  background-color: #e7e582;
+  text-decoration: underline;
+}
+#copyright {
+  color: #d7363e;
+  background-color: white;
+}
+.imgbox {
+  border: 50px solid #000000;
+  padding: 10px;
+  background-color: white;
+}
+body {
+  background-image: url(tech.png)
+}
+a:link {
+  color: #d7363e;
+  /* this is red */
+}
+a:visited {
+  color: green;
+  /* this is green */
+}
+a:hover {
+  color: yellow;
+}
