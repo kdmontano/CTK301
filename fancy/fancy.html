@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fancy Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+/>
+<link rel="stylesheet" href="fancy.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>Fancy Example</h1>
+    <a href="patch.jpg" data-fancybox="georgegallery" data-caption="Image of a Patch">
+    <img src="patch_thumb.jpg" alt="patch image"/>
+</a>
+<a href="icecream.jpg" data-fancybox="georgegallery" data-caption="Ice Cream">
+  <img src="icecream_thumb.jpg">
+</a>
+<a href="water.jpg" data-fancybox="georgegallery" data-caption="Water">
+  <img src="water_thumb.jpg">
+</a>
+
+<a href="patch.jpg" data-fancybox="marthagallery" data-caption="Image of a Patch">
+<img src="patch_thumb.jpg" alt="patch image"/>
+</a>
+<a href="icecream.jpg" data-fancybox="marthagallery" data-caption="Ice Cream">
+<img src="icecream_thumb.jpg">
+</a>
+<a href="water.jpg" data-fancybox="marthagallery" data-caption="Water">
+<img src="water_thumb.jpg">
+</a>
+<!-- "georgegallery" links the images together, so they appear together -->
+
+<div id="myCarousel" class="carousel">
+    <div class="carousel__slide"><img src="patch.jpg"></div>
+    <div class="carousel__slide"><img src="icecream.jpg"></div>
+    <div class="carousel__slide"><img src="water.jpg"></div>
+</div>
+<!--cant copy and paste carousel to have two carousels, need to create new id-->
+
+<div id="myCarousel2" class="carousel">
+    <div class="carousel__slide"><img src="patch.jpg"></div>
+    <div class="carousel__slide"><img src="icecream.jpg"></div>
+    <div class="carousel__slide"><img src="water.jpg"></div>
+</div>
+  </div>
+  <script>
+  const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+    // Your options go here
+  });
+  const myCarousel2 = new Carousel(document.querySelector("#myCarousel2"), {
+    // Your options go here
+  });
+</script>
+</body>
+</html>
