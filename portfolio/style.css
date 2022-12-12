@@ -123,6 +123,7 @@ main p {
 .me {
   width: 350px;
   position: absolute;
+  z-index: 300;
   top:350px;
   left:250px;
   transform: rotate(10deg) /*holy shit i fixed it!!!THIS IS SO COOL!!*/
