@@ -1,3 +1,5 @@
+/*this is for multimedia*/
+
 body {
   background-image: url(images/pinkhearts.png);
   background-size: 500px;
@@ -191,6 +193,16 @@ footer{
   margin-right: 6px;
   border-radius: 6px;
 }
+#myCarousel5 .carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 630px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
 #myCarousel {
   grid-column: span 6;
 }
@@ -204,6 +216,9 @@ footer{
 #myCarousel4 {
   grid-column: span 6;
 }
+#myCarousel5 {
+  grid-column: span 6;
+}
 .size2{
   width:400px;
   height: 550px;
@@ -215,6 +230,10 @@ footer{
 .size4{
   width:500px;
   height: 590px;
+}
+.size5{
+  width:520px;
+  height: 620px;
 }
 
 h2 {
@@ -265,6 +284,17 @@ padding: 20px;
 border-radius: 10px;
 position: relative;
 }
+.vintage5{
+  margin-top: 130px;
+  margin-right: 10px;
+  grid-column: span 6;
+  text-align: center;
+  background-image: url(images/gridpaper.png);
+  height: 340px;
+padding: 20px;
+border-radius: 10px;
+position: relative;
+}
 
 #sidetape {
   position: absolute;
@@ -288,7 +318,11 @@ position: relative;
   bottom: 310px;
   position: absolute;
 }
-
+#sidetape5 {
+  right: 130px;
+  bottom: 330px;
+  position: absolute;
+}
 
 .copyright{
   grid-column: span 12;
